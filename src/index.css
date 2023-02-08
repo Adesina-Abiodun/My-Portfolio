@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Rasa:wght@300&display=swap");
+
+@layer base {
+  body {
+    @apply box-border scroll-smooth font-sans;
+  }
+
+  li {
+    @apply cursor-pointer tracking-[0.0015em] leading-[29px] ;
+  }
+
+ 
+}
+
+@layer components {
+ 
+  .nav-icon {
+    @apply w-6 h-6 cursor-pointer
+  }
+
+  .active {
+    @apply text-cognac
+  }
+}
